@@ -1,0 +1,20 @@
+{
+  "name": "The Cube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup-plugin-babel-minify": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.build.js && cp upup.min.js export/ && cp upup.sw.min.js export/ && cp index.html export/ && cp -R assets export/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeherillaJanwar/Rubiks-Cube"
+  },
+  "author": "Ishaan Sharma",
+  "license": "MIT",
+}
