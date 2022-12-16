@@ -1,0 +1,3 @@
+import * from Random
+
+init()
